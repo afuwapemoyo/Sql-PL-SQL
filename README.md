@@ -1,2 +1,2 @@
-# Sql-PL-SQL
+# Sql
 Structured Query Language
