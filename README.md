@@ -7,15 +7,15 @@ Structured Query Language
 --1:- Create a list that displays the title of each book and the name and phone number of the contact at the publisher's office for reordering each book.
 --Ans:- 
 
-SELECT title, contact, phone
-FROM Books b, Publisher pb
-WHERE b.pubid = pb.pubid;
+#  SELECT title, contact, phone
+#  FROM Books b, Publisher pb
+#  WHERE b.pubid = pb.pubid;
 
 SELECT title, contact, phone
 FROM Books b JOIN Publisher pb
 ON b.pubid = pb.pubid;
 
---Result:- 
+# --Result:- 
 TITLE                          CONTACT         PHONE      
 ------------------------------ --------------- ------------
 BODYBUILD IN 10 MINUTES A DAY  RENEE SMITH     800-555-9743
@@ -29,6 +29,7 @@ E-BUSINESS THE EASY WAY        JANE TOMLIN     010-410-0010
 PAINLESS CHILD-REARING         SEBASTIAN JONES 800-555-8284
 THE WOK WAY TO COOK            RENEE SMITH     800-555-9743
 BIG BEAR AND LITTLE DOVE       SEBASTIAN JONES 800-555-8284
+# 
 
 TITLE                          CONTACT         PHONE      
 ------------------------------ --------------- ------------
